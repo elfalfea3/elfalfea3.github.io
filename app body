@@ -1,8 +1,8 @@
 const { Moddio } = require('moddio/server');
 
 const moddio = new Moddio({
-  appId: 'your-app-id',
-  appSecret: 'your-app-secret',
+  appId: 'app_cf9610a5099e799dbb8919b7',
+  appSecret: 'sk_live_ffe6a345c45b8071a6a8cd2f089d787e1741965243266071',
 });
 
 moddio.on('playerJoin', (player) => {
