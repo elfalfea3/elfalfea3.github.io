@@ -1,0 +1,16 @@
+const { Moddio } = require('moddio/server');
+
+const moddio = new Moddio({
+  appId: 'your-app-id',
+  appSecret: 'your-app-secret',
+});
+
+moddio.on('playerJoin', (player) => {
+  console.log(player.id);          // unique player ID
+  console.log(player.name);        // display name
+  console.log(player.data);        // saved game data (guaranteed loaded)
+  console.log(player.permissions); // { chat: true, vip: false }
+});
+
+// Save player data anytime
+moddio.savePlayerData(player.id, { highScore: 9001 });
