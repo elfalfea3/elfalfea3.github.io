@@ -10,4 +10,14 @@
     "moddio": "^0.5.6",
     "ws": "^8.20.0"
   }
+  {
+  "setupTasks": [ { "name": "Install Dependencies2", "command": "npm install moddio" }],
+  "tasks": {
+   "start2": {
+      "name": "start2",
+      "command": "npm install moddio",
+      "runAtStart": true,
+      "preview": { "port": 3000 }
+    }
+  }
 }
