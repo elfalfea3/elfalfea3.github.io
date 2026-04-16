@@ -2,7 +2,7 @@
   "name": "braainsio",
   "version": "1.0.0",
   "private": true,
-  "description": "Cosmo Apocolypse - A multiplayer HTML5 game powered by modd.io",
+  "description": "Cosmo Apocolypse game creating template",
   "scripts": {
     "start": "echo 'This is a static site. Open index.html or use: npx netlify dev'"
   },
